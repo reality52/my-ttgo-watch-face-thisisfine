@@ -1,0 +1,49 @@
+{
+  "api_level": 3,
+  "dial": {
+    "enable": true,
+    "x_offset": 0,
+    "y_offset": 0
+  },
+  "label": [
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%H %M",
+      "font": "comic32.font",
+      "font_color": "#0e0000",
+      "align": "center",
+      "hide_interval": -1,
+      "x_offset": 100,
+      "y_offset": 8,
+      "x_size": 150,
+      "y_size": 32
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%H:%M",
+      "font": "comic32.font",
+      "font_color": "#0e0000",
+      "align": "center",
+      "hide_interval": 1,
+      "x_offset": 100,
+      "y_offset": 8,
+      "x_size": 150,
+      "y_size": 32
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%b-%d-%y",
+      "font": "comic20.font",
+      "font_color": "#0e0000",
+      "align": "center",
+      "hide_interval": 0,
+      "x_offset": 60,
+      "y_offset": 34,
+      "x_size": 155,
+      "y_size": 32
+    }
+  ]
+}
